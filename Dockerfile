@@ -1,8 +1,5 @@
-# Arch Linux baseline docker container
-# Generated on Thu May  4 09:30:50 BST 2017 using code in this GitHub repo:
-# https://github.com/greyltc/docker-archlinux
 FROM scratch
-MAINTAINER Grey Christoforo <grey@christoforo.net>
+MAINTAINER nlhomme (https://github.com/nlhomme/docker-archlinux)
 
 # copy in super minimal root filesystem archive
 ADD archlinux.tar.xz /
